@@ -1,0 +1,15 @@
+.footer {
+  padding: 100px;
+  color: rgb(183, 157, 122);
+  background-color: rgb(26,30,53);
+  text-align: center;
+}
+
+.footer .icons {
+  font-size: 30px;
+}
+
+.footer .contacts {
+  font-size: 16px;
+  margin: 5px;
+}

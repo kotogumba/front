@@ -1,0 +1,32 @@
+.topnav {
+  /* background-color: rgb(26, 30, 53); */
+  background: linear-gradient(to bottom,rgb(26, 30, 53),rgba(26,30,53,0.5) 100%);
+  /* overflow: hidden; */
+  position: absolute;
+  height: 120px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 40;
+}
+
+.topnav a {
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+ul {
+  display: block;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 70px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
