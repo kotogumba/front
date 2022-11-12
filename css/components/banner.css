@@ -20,8 +20,8 @@ video {
 }
 
 .banner h2 {
-  width: 80%;
   color: white;
+  text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
   font-family: 'Futura PT', sans-serif;
   font-weight: 100;
   font-size: 44px;
@@ -30,6 +30,7 @@ video {
   padding: 20px;
   margin: 0;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .banner-content {
