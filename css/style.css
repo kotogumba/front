@@ -1,14 +1,9 @@
 @import url('./components/footer.css');
 @import url('./components/banner.css');
-@import url('./components/logo.css');
 @import url('./components/navbar.css');
 @import url('./components/button.css');
 @import url('./components/card.css');
 
-.container {
-  width: 1000px;
-  margin: 0 auto;
-}
 
 .medium {
   display: flex;
@@ -20,24 +15,21 @@
   background-color: rgb(26,30,53);
 }
 
-
 body {
   margin: 0;
   background-color: #FFF5E4;
 }
 
-a {
-  font-family: 'Futura PT', sans-serif;
-  font-weight: 400;
-  font-size: 11px;
-  color: rgb(183, 157, 122);
-  letter-spacing: 1px;
-  padding: 0 10px;
-
-  text-decoration: none;
-}
-
 .dr {
   height: 700px;
   padding-top: 5px;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .banner h2 {
+    font-size: 26px;
+    line-height: 30px;
+  }
 }

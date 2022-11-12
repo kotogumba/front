@@ -1,9 +1,13 @@
+
 .footer {
-  padding: 100px;
   color: rgb(183, 157, 122);
   background-color: rgb(26,30,53);
-  text-align: center;
+  padding: 10px 20px 10px 20px;
 }
+
+/* .footer-content {
+  pad
+} */
 
 .footer .icons {
   font-size: 30px;
@@ -11,5 +15,22 @@
 
 .footer .contacts {
   font-size: 16px;
-  margin: 5px;
+}
+
+.footer a {
+  color: rgb(183, 157, 122);
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: white;
+}
+
+.align-end {
+  align-self: flex-end;
+}
+
+.copyright {
+  font-size: 12px;
+  text-align: center;
 }

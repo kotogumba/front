@@ -1,4 +1,4 @@
-.btn {
+.my-button {
   /* background-color: #002B5B; */
   color: #e5dfd9;
   background-color: #00000035;
@@ -15,9 +15,12 @@
   border: 2px solid white;
   text-transform: uppercase;
   text-align: center;
+  text-decoration: none;
+  font-family: 'Futura PT', sans-serif;
 }
 
-.btn:hover {
+.my-button:hover {
   background-color: #313131;
   border-color: #313131;
+  color: #e5dfd9;
 }
